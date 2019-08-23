@@ -2,14 +2,18 @@
 
 Exercises to encourage deeper understanding of [SICP-JS](https://sicp.comp.nus.edu.sg/)
 
-## Setup
+## Set Up the Project
 
-## Implement Challenege
+Execute `yarn install` to set up this repo.
 
-// TODO: Add links to files when complete.
-* [1.2](https://sicp.comp.nus.edu.sg/chapters/8#ex_1.2)
-* [1.3](https://sicp.comp.nus.edu.sg/chapters/8#ex_1.3)
+## Exercise 1.2
+Problem: [Translate math expression into Javascript.](https://sicp.comp.nus.edu.sg/chapters/8#ex_1.2)
+  * [My Solution](exercise-1.2/exercise-1.2.js)
 
-## Test Implementation
+## Exercise 1.3
+Problem: [Sum of square of two largest numbers.](https://sicp.comp.nus.edu.sg/chapters/8#ex_1.3)
+  * [My Solution](exercise-1.3/exercise-1.3.js)
 
-`yarn test` will run the specs, giving a pass or fail.
+## Testing
+
+Execute `yarn test` to run the specs, giving a pass or fail.
