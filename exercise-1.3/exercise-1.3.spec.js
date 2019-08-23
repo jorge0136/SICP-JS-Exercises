@@ -2,10 +2,10 @@ import { sumSquareOfBiggestTwo } from "./exercise-1.3";
 
 describe('1.3 Sum of Squares of Two Biggest Numbers', () => {
 
-    test('sums the squares of simple integers', () =>
+    test('sums the squares of the two largest integers', () =>
         expect(sumSquareOfBiggestTwo(2, 2, 3)).toEqual(13));
 
-    test('sums the squares of floats', () =>
+    test('sums the squares of the two largest floats', () =>
         expect(sumSquareOfBiggestTwo(2.0, 2.0, 3.5)).toEqual(16.25));
 
     // TODO: Discuss -1 vs. throwing an error.
@@ -16,4 +16,5 @@ describe('1.3 Sum of Squares of Two Biggest Numbers', () => {
         expect(sumSquareOfBiggestTwo(2, NaN, 3)).toEqual(-1));
 
     // TODO: Discuss what other cases are missing
+    // TODO: Discuss how we might package this function as a CLI tool if we wanted to do so.
 });
